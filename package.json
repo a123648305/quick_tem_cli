@@ -1,17 +1,13 @@
 {
   "name": "quick_tem_cli",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "quick dev template cli",
   "main": "index.js",
   "author": "wxs",
   "license": "MIT",
   "dependencies": {
-    "@vue/cli": "^5.0.1",
     "commander": "^9.0.0",
-    "fs-extra": "^10.0.1"
-  },
-  "bin": "../bin/index.js",
-  "devDependencies": {
+    "fs-extra": "^10.0.1",
     "axios": "^0.26.0",
     "chalk": "^4.0.0",
     "download-git-repo": "^3.0.2",
@@ -19,7 +15,11 @@
     "inquirer": "^8.2.0",
     "ora": "^5.4.0"
   },
+  "bin": "../bin/index.js",
+  "devDependencies": {},
   "peerDependencies": {
+    "commander": "^9.0.0",
+    "fs-extra": "^10.0.1",
     "axios": "^0.26.0",
     "chalk": "^4.0.0",
     "download-git-repo": "^3.0.2",
