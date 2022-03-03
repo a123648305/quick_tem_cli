@@ -1,10 +1,9 @@
 #! /usr/bin/env node
-console.log('Hello World! welcome to use quick_tem_cli!!')
 
 const { program } = require('commander')
-// const chalk = require('chalk')
+const chalk = require('chalk')
 var figlet = require('figlet')
-
+console.log(chalk.green('Hello World! welcome to use quick_tem_cli!!'))
 program
   .version(`Version is ${require('../package.json').version}`)
   //   .usage('<command> [options]')

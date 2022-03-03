@@ -3,7 +3,7 @@
  * @Author: wujian
  * @Date: 2022-03-01 16:41:39
  * @LastEditors: wujian
- * @LastEditTime: 2022-03-02 15:31:44
+ * @LastEditTime: 2022-03-03 16:27:01
  */
 const path = require('path')
 const fs = require('fs-extra')
@@ -37,10 +37,9 @@ module.exports = async function (projectName, option) {
 
       const { overWirte } = await inquirer.prompt(overWirteQue)
       if (overWirte === 'y') {
-        console.log(chalk.yellow('已覆盖原项目'))
-        return fs.removeSync(projectPath)
+        console.log(chalk.yellow('已删除原项目'))
+        fs.removeSync(projectPath)
       }
-      return
     }
   }
 
