@@ -1,6 +1,6 @@
 {
   "name": "quick_tem_cli",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "quick dev template cli",
   "main": "index.js",
   "author": "wxs",
@@ -33,5 +33,9 @@
     "quick",
     "react",
     "vue"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/a123648305/quick_tem_cli.git"
+  }
 }
